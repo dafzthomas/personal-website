@@ -13,7 +13,7 @@ templateClass: tmpl-post
 {{ content | safe }}
 
 <script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento" className="max-w-prose"></div>
+<div id="commento"></div>
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
