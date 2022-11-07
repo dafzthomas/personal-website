@@ -12,6 +12,9 @@ templateClass: tmpl-post
 
 {{ content | safe }}
 
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
+
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
