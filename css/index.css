@@ -46,6 +46,17 @@ body {
   background-color: var(--background-color);
 }
 
+footer {
+  margin: 0 auto;
+}
+
+footer ul {
+  margin: 0 0 20px;;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
